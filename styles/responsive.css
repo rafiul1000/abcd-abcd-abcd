@@ -1,0 +1,121 @@
+/* media queries for small devices */
+
+@media screen and (max-width: 576px) {
+    .nav-container{
+        flex-direction: column;
+    }
+
+    .nav-container{
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .nav-icons{
+        margin-top: 200px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .nav-links{
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    /* nav section end */
+    
+    banner-container{
+        flex-direction: column;
+    }
+    .banner-content{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .banner-image{
+        width: 50%;
+        flex-direction: column;
+        padding-bottom: 50px;
+        align-items: center;
+    }
+
+    .gamer-section{
+        flex-direction: column;
+    }
+    .gamer-title{
+        text-align: center;
+        font-size: 30px
+    }
+    .gamer-text-p{
+        text-align: center;
+    }
+    .gamer-btn{
+        margin-top: 20px;
+    }
+    .gamer-text-second-p{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .gamer-span{
+        font-size: 20px;
+        text-align: center;
+    }
+    .funny-videos h2{
+        /* font-size: 20px; */
+    }
+    .funny-text-p{
+        align-items: center;
+        font-size: 20px;
+    }
+    .video{
+        flex-direction: column;
+    }
+    .video-section img{
+        align-items: center;
+        
+        width: 90%;
+    }
+    .video-section-p{
+        text-align: center;
+        padding: 20px 0;
+
+    }
+    .play-section{
+        flex-direction: column;
+    }
+    .play-text h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .play-text p{
+        text-align: center;
+        margin: 20px 0;
+    }
+    .play-image{
+        width: 100%;
+        margin: 20px;
+    }
+    .some-games-container{
+        flex-direction: column;
+    }
+    .some-games-container{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .some-games{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .footer-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .footer-p-first{
+        width: 80%;
+    }
+    .links{
+        align-items: center;
+    
+    }
+}
