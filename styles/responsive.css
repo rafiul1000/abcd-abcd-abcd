@@ -139,13 +139,16 @@
     
     }
 }
-
+/* medium device end */
 
 
 
 
 
 /* media queries for small devices */
+
+
+/* small device start */
 
 @media screen and (max-width: 576px) {
     .nav-container{
@@ -269,3 +272,5 @@
     
     }
 }
+
+/* small device end */

@@ -162,6 +162,10 @@ background-image: url('../images/Group\ 14.png');
 }
 
 /* banner section end */
+
+
+/* game section start */
+
 .gamer-section{
   background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
   display: flex;
@@ -233,10 +237,10 @@ background-image: url('../images/Group\ 14.png');
   line-height: 45px;
 }
 
+/* game section end */
 
 
-
-
+/* funny section start */
 
 .funny-heading{
   color: #0B0223;
@@ -262,7 +266,10 @@ background-image: url('../images/Group\ 14.png');
   font-weight: 400;
   line-height: 30px;
 }
+/* funny section end */
 
+
+/* video section start */
 
 .video-section img{
   width: 310px;
@@ -287,12 +294,10 @@ background-image: url('../images/Group\ 14.png');
 .video{
   display: flex;
 }
+/* video section end */
 
-.play-text{
-  /* width: 50%; */
 
-}
-
+/* play section start */
 .play-text h2{
   text-align: right;
 font-family: Work Sans;
@@ -341,6 +346,10 @@ line-height: 60px;
   margin-top: -250px;
   
 }
+/* play section end */
+
+
+/* games section start */
 
 .some-games-container{
   background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
@@ -381,6 +390,12 @@ line-height: 60px;
   gap: 50px;
   justify-content: space-around;
 }
+
+/* game section end */
+
+
+
+/* footer section start */
 
 footer{
   background: #0B0223;
@@ -455,3 +470,6 @@ ul li{
   font-style: normal;
   font-weight: 500;
 }
+
+
+/* footer section end */
